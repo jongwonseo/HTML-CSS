@@ -1,0 +1,51 @@
+1-1
+<h1></h1>: 제목(크기)
+<p></p>: 문단
+<br> 줄바꿈
+<hr> 가로줄
+&nbs: 스페이스
+
+1-2
+<b></b>: 굵게
+<strong></strong>: 굵게 + 중요한 내용
+<i></i>: 기울임
+<em></em>: 기울임 + 강조한 내용
+
+<sup></sup>: 올림첨자
+<sup></sup> 아래첨자
+
+<u></u>: 밑줄
+<s></s>: 취소선
+
+1-3
+&lt;  :<
+&gt; :>
+
+<blockquote cite="주소"></blockquote>: 긴 인용문
+q cite="주소"></q>: 짧은 인용문
+<cite></cite>: 출처 표기
+<mark></mark>: 마크
+<abbr title="HyperText Markup Language"></abbr>: 점밑줄
+
+1-4
+<ul><li></li></ul>: 순서없는 리스트
+<ol type="A" start=1><li></li></ol>: 순서있는 리스트
+<dl><dt></dt><dd></dd></dl>: 용어, 정의 나열하기
+
+1-5
+<img src="주소" alt="" title="" width= height= >: 이미지
+
+1-6
+<table><caption></caption><tr><td></td></tr></table>: 테이블
+<td colspan="">
+<td rowspan="">
+<p>
+
+1-7
+<a href="주소" target=""></a>: 하이퍼링크
+<p id=""></p> 하고 <a href=""></a>하면 그곳으로 감 id지정
+
+1-8
+<form></form>
+
+1-9
