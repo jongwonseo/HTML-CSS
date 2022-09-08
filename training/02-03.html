@@ -1,0 +1,123 @@
+<!DOCTYPE ko>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html{
+      font-size:14px;
+    }
+    div{
+      font-size:2em;
+    }
+    .result{
+      flex-grow: 5;
+      color:blueviolet;
+      text-decoration:underline;
+      text-transform: none;
+    }
+
+    section.result2{
+      flex-grow: 5;
+      color:pink;
+      text-align: center;
+      text-decoration:underline;
+      text-transform: none;
+    }
+    
+    
+    section.result3{
+      
+      color: blue;
+    }
+    section.result3 ul{
+      
+      color: tan;
+      list-style: lower-greek;
+      text-decoration-line: overline;
+    }
+  </style>
+
+</head>
+
+<body>
+  바깥
+  <div>
+    <div>중간
+      <div>안쪽</div>
+    </div>
+  </div>
+
+  <section class="result">
+
+    <!-- 시작 -->
+    
+    <p>
+      <strong>text-decoration</strong> 속성은 밑줄, 취소선, 물결선 등으로 <br>
+      글을 꾸며주는데 사용됩니다. <br><br>
+      여러 꾸밈요소를 함께 사용할 수 있으며 <br>
+      선의 형태, 색, 굵기 등 디테일을 지정할 수도 있습니다. <br><br>
+      아래 링크에서 상세 내용과 구성 속성들을 확인하세요. <br>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration" target="_blank">👉 &nbsp;MDN 문서 보기</a>
+    </p>
+    <hr>
+    <p>
+      <strong>text-transform</strong> 속성은 알파벳의 대소문자 표시에 사용됩니다. <br><br>
+      HTML, CSS와 같이 대문자로 작성된 텍스트는 <em>capitalize</em>에 영향을 받지 않습니다.
+    </p>
+
+    <!-- 끝 -->
+
+    <section class="result2">
+
+      <!-- 시작 -->
+
+      <div>
+        <h1>정렬과 간격</h1>
+        <p>
+          <strong>text-align</strong> 속성은 텍스트의 정렬 방식을 지정합니다. 직관적으로 알 수 있듯, 기본값인 <em>left</em>는 왼쪽, <em>center</em>는 가운데, <em>right</em>은 오른쪽으로 텍스트(및 인라인 요소들)을 정렬하죠. <em>justify</em>는 왼쪽으로 정렬하면서, 텍스트가 여러 줄이 될 때 마지막 줄을 제외한 줄들의 오른쪽이 나란히 되도록 각 줄의 공간을 조절합니다.
+        </p>
+        <p>
+          <strong>letter-spacing</strong>으로는 자간, <strong>word-spacing</strong>으로는 단어 간격, <strong>line-height</strong>으로는 줄 높이를 조절할 수 있습니다.
+        </p>
+      </div>
+
+      <!-- 시작 -->
+
+    </section>
+  </section>
+
+  <section class="result3">
+
+    <!-- 시작 -->
+
+    <ul>
+      <li>저스티스 리그</li>
+      <li>어벤져스</li>
+      <li>엑스맨
+        <ol>
+          <li>퍼스트 클래스</li>
+          <li>데이즈 오브 퓨쳐 패스트</li>
+          <li>아포칼립스</li>
+          <li><s>다크피닉스</s></li>
+        </ol>
+      </li>
+    </ul>
+
+    <p>
+      <strong>list-style</strong> 속성으로 ul과 ol 목록의 불릿, 숫자 스타일을 지정할 수 있습니다. <br>
+      ul, ol 여부와 관계없이 기호, 서수, 원하는 문자, 이모지, 심지어 이미지까지 사용할 수 있죠. <br><br>
+      <em>none</em> 값을 사용하여 아무것도 붙이지 않을 수도 있습니다. <br><br>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/list-style" target="_blank">👉 MDN에서 더 자세한 설정 방법 보기</a>
+    </p>
+
+  <!-- 끝 -->
+
+  </section>
+
+  <!-- ul>li{ul 아이템 $}*3^ol>li{li 아이템 $}*3 -->
+
+</body>
+</html>
