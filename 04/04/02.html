@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../02_pretty.css">
+  <link rel="stylesheet" href="./02_common.css">
+
+  <style>
+    .parent {
+      font-weight: bold;
+      color: slateblue;
+    }
+    .parent > div { color: olivedrab; }
+    .parent > :last-child { color: inherit; }
+  </style>
+
+  <title>hcs-04-03-03</title>
+</head>
+<body>
+
+  <h1>inherit</h1>
+  <p>
+    스스로의 값을 포기하고 부모로부터 받은 상속값을 적용합니다.
+  </p>
+
+  <div class="parent">
+    <span class="class-label">.parent</span> 부모
+    <div>자식 1</div>
+    <div>
+      <div>자식</div>
+    </div>
+    <div>자식 3</div>
+  </div>
+
+  <a href="https://developer.mozilla.org/ko/docs/Web/CSS/inherit" target="_blank">
+    👉 MDN 문서 보기
+  </a>
+  
+</body>
+</html>
